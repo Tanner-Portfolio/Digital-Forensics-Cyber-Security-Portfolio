@@ -1,9 +1,15 @@
 "The Real Heat." Documented Shellbags, USBSTOR, and Registry artifacts.
 [CASE ID]: [Project Name]
-Executive Summary: 2 sentences. What was the threat? (e.g., "Identified a persistent reverse shell in a compromised Windows 10 image.")
-Scope: What artifacts did you analyze? (e.g., "Memory dump, Registry Hives, and Master File Table.")
-Methodology: Which tools? (e.g., "Volatility 3, Autopsy, and Hex Editor.")
+# Summary: Investigated a compromised Windows 10 environment to identify the artifacts left by a threat actor.
+Identified a persistent reverse shell in a compromised Windows 10 image. 
+Scope: What artifacts did you analyze?
+Methodology: Which tools?
 Key Evidence (The Stains):
-Artifact 1: (e.g., "Found suspicious IP 10.x.x.x in the Prefetch files.")
-Artifact 2: (e.g., "Identified persistence via the 'soft_run' Registry key.")
-Remediation: How do we stop this from happening again? (e.g., "Implement UFW rules to block Port 443 outbound from unprivileged accounts.")
+Artifact 1:  Was found suspicious IP 10.x.x.x in the Prefetch files.
+Artifact 2: Identified persistence via the 'soft_run' Registry key.
+Remediation:
+
+Method: Performed memory and registry analysis to reconstruct an attack timeline.
+Tools: Volatility 3, FTK Imager, Registry Explorer.
+Artifacts: Identified a reverse shell calling back to a C2 server via a hidden registry key.
+Screenshot: [Insert image of your Registry Analysis or Timeline here]
