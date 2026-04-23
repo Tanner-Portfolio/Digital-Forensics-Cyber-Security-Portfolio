@@ -8,13 +8,13 @@ This repository serves as a centralized archive of my digital forensics, inciden
 *[**01: Endpoint Forensics**](./01-Endpoint-Forensics/README.md) 
     * *Focus:* Persistence mechanisms and Windows Registry Analysis.
 
-* [**02: Container Security**](./02-Container-Security/README.md) 
+*[**02: Container Security**](./02-Container-Security/README.md) 
     * *Focus:* Supply Chain Vulnerability Analysis (e.g., Spring4Shell) and secure container configurations.
 
-* [**03: Network Forensics**](./03-Network-Forensics/README.md) 
+*[**03: Network Forensics**](./03-Network-Forensics/README.md) 
     * *Focus:* PCAP Traffic Analysis and custom IDS (Intrusion Detection System) Rule Development.
 
-* [**04: Cloud Infrastructure**](./04-Cloud-Infrastructure/README.md) 
+*[**04: Cloud Infrastructure**](./04-Cloud-Infrastructure/README.md) 
     * *Focus:* Secure AWS Provisioning via Infrastructure as Code (IaC).
 
 *[**05: AI in Cybersecurity**](./05-AI-Cybersecurity-NIST/README.md) 
