@@ -1,9 +1,18 @@
-Infrastructure as Code (IaC) and how to build secure perimeters in the cloud.
-[CASE ID]: [Project Name]
-Executive Summary: 2 sentences. What was the threat? (e.g., "Identified a persistent reverse shell in a compromised Windows 10 image.")
-Scope: What artifacts did you analyze? (e.g., "Memory dump, Registry Hives, and Master File Table.")
-Methodology: Which tools? (e.g., "Volatility 3, Autopsy, and Hex Editor.")
-Key Evidence (The Stains):
-Artifact 1: (e.g., "Found suspicious IP 10.x.x.x in the Prefetch files.")
-Artifact 2: (e.g., "Identified persistence via the 'soft_run' Registry key.")
-Remediation: How do we stop this from happening again? (e.g., "Implement UFW rules to block Port 443 outbound from unprivileged accounts.")
+# Cloud Infrastructure: Secure AWS Provisioning
+
+## 📝 Project Overview
+This project demonstrates the ability to architect and provision secure, scalable cloud infrastructure using Infrastructure as Code (IaC) principles. The lab focuses on designing an isolated Virtual Private Cloud (VPC) environment within Amazon Web Services (AWS).
+
+## 🏗️ Technical Architecture & Tools
+*   **Cloud Provider:** Amazon Web Services (AWS).
+*   **Services:** AWS CloudFormation, AWS Infrastructure Composer, Amazon S3, VPC, EC2.
+*   **Data Serialization:** JSON.
+
+## 🚀 Key Features & Deployment
+*   **VPC Configuration:** Provisioned a custom VPC (`10.0.0.0/16`) with DNS support and hostnames explicitly enabled.
+*   **Subnet Segmentation:** Designed a secure network topology by segmenting the environment into a Public Subnet (`10.0.1.0/24`) and a Private Subnet (`10.0.2.0/24`) spanning specific Availability Zones (`us-east-2a`).
+*   **Infrastructure as Code (IaC):** Utilized JSON within AWS Infrastructure Composer to dynamically generate the routing structures and resource tags.
+*   **Stack Deployment:** Deployed and validated the entire architecture via an automated AWS CloudFormation Stack, ensuring repeatable and error-free infrastructure generation.
+
+*(📸 Recommendation: Insert the AWS Infrastructure Composer Visual Map screenshot here)*
+`![AWS Infrastructure Composer Map](./images/aws-composer.png)`
