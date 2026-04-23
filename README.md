@@ -1,7 +1,7 @@
 # Digital Forensics & Cyber Security Portfolio
 
 ## 📝 Project Overview
-This repository serves as a centralized archive of my digital forensics, incident response (DFIR), and cybersecurity engineering projects. It demonstrates practical applications of endpoint analysis, container security, network traffic analysis, and the strategic implementation of artificial intelligence in secure environments.
+This repository serves as a centralized archive of my digital forensics, incident response (DFIR), and cybersecurity projects. It demonstrates practical applications of endpoint analysis, container security, network traffic analysis, and the strategic implementation of artificial intelligence in secure environments.
 
 ## 📂 Project Archive
 
