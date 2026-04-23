@@ -1,7 +1,5 @@
 # Digital Forensics & Cyber Security Portfolio
 
-**Master's Student in Digital Forensics | Military Veteran | Specialized in SIEM Triage, Endpoint Investigation, and AI Integration**
-
 ## 📝 Project Overview
 This repository serves as a centralized archive of my digital forensics, incident response (DFIR), and cybersecurity engineering projects. It demonstrates practical applications of endpoint analysis, container security, network traffic analysis, and the strategic implementation of artificial intelligence in secure environments.
 
@@ -19,4 +17,4 @@ This repository serves as a centralized archive of my digital forensics, inciden
     * *Focus:* Strategic Implementation of AI in Cybersecurity mapped to the NIST AI RMF 1.0 framework.
 
 ---
-*Note: Each directory contains its own anonymized report.*
+*Note: Each directory contains its own respective anonymized report.*
