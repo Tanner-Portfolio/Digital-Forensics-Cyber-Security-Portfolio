@@ -19,4 +19,4 @@ This repository serves as a centralized archive of my digital forensics, inciden
     * *Focus:* Strategic Implementation of AI in Cybersecurity mapped to the NIST AI RMF 1.0 framework.
 
 ---
-*Note: Each directory contains its own localized documentation, scripts, and anonymized reports.*
+*Note: Each directory contains its own anonymized report.*
