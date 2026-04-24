@@ -16,7 +16,7 @@ This module demonstrates advanced endpoint forensic techniques on Windows and Li
 *   **Persistence Mechanisms:** Discovered a malicious autostart key named `soft_run` mapped in `Microsoft/Windows/CurrentVersion/Run`.
 *   **Anti-Forensics & Encryption:** Found evidence of `bdeunlock.exe` execution, indicating the threat actor manipulated BitLocker to encrypt/lock data. Extracted the BitLocker Recovery Key from `4E3D7844-CC56-427E-89A1-DCF265F60C16.TXT`.
 
-*(📸 Recommendation: Insert the Volatility `windows.info` or Ncat PID screenshot here)*
+*Insert the Volatility `windows.info` or Ncat PID screenshot here)*
 `![Reverse Shell Execution](./images/ncat-execution.png)`
 
 ## 🔍 Investigation 2: Forensic Data Recovery & Camouflage Detection
@@ -27,5 +27,5 @@ This module demonstrates advanced endpoint forensic techniques on Windows and Li
 *   **Data Carving:** Utilized `scalpel` to carve corrupted JPEG files from the disk image. Leveraged `hexdump` to locate embedded JPEG headers (`ff d8`) and `dd` to split merged files into distinct, viewable images.
 *   **Metadata Extraction:** Extracted hidden EXIF data using `exiv2` to catalog the origin and hash values (MD5) of the recovered evidence.
 
-*(📸 Recommendation: Insert the Exiv2 output or a recovered image screenshot here)*
+*Insert the Exiv2 output or a recovered image screenshot here)*
 `![Exiv2 Metadata Output](./images/exiv2-output.png)`
