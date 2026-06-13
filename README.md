@@ -1,9 +1,9 @@
 # Digital Forensics & Cyber Security Portfolio
 
-## 📝 Project Overview
+## Project Overview
 This repository serves as a centralized archive of my digital forensics, incident response (DFIR), and cybersecurity projects. It demonstrates practical applications of endpoint analysis, container security, network traffic analysis, and the strategic implementation of artificial intelligence in secure environments.
 
-## 📂 Project Archive
+## Project Archive
 
 *[**01: Endpoint Forensics**](./01-Endpoint-Forensics/README.md) 
     * *Focus:* Persistence mechanisms and Windows Registry Analysis.
@@ -20,5 +20,8 @@ This repository serves as a centralized archive of my digital forensics, inciden
 *[**05: AI in Cybersecurity**](./05-AI-Cybersecurity-NIST/README.md) 
     * *Focus:* Strategic Implementation of AI in Cybersecurity mapped to the NIST AI RMF 1.0 framework.
 
+*[**06: Enterprise-Insider-Threat-Forensics**](./06-Enterprise-Insider-Threat-Forensics/README.md) 
+    * *Focus:* Digital Forensic Investigation of Insider Threat.
+
 ---
-*Note: Each directory contains its own respective anonymized report.*
+*Note: Each directory contains its own respective report, anonymized for privacy.*
