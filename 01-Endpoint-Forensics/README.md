@@ -3,7 +3,7 @@
 ## Overview
 This module demonstrates advanced endpoint forensic techniques on Windows and Linux environments. The investigations focus on analyzing volatile memory, parsing Windows Registry hives to track threat actor movements, and utilizing file-carving techniques to recover intentionally obfuscated or deleted evidence.
 
-## Methodology
+## Tools
 *   **Memory & Registry Analysis:** Volatility, Windows Registry (SYSTEM, NTUSER.DAT, UsrClass.dat).
 *   **File Recovery & Metadata:** Scalpel, Hexdump, Exiv2, `dd`.
 *   **Environment:** Windows 10 Enterprise, Linux.
