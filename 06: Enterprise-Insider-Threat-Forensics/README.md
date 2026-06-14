@@ -1,11 +1,11 @@
 # Enterprise Insider Threat Investigation (Capstone)
 
 ## Overview
-This repository contains the redacted forensic documentation and analysis reports from a full-scope digital forensics investigation into an insider threat and data exfiltration incident. 
+This repository contains the forensic documentation and analysis reports from a digital forensics investigation into an insider threat and data exfiltration incident. 
 
 ## Tools
-*   **Autopsy (v4.21.0):** File system analysis, raw data carving, automated ingest tracking.
-*   **Volatility (v2.6):** Structured volatile memory analysis and kernel block identification.
+*   **Autopsy (v4.21.0):** File system analysis, raw data carving, ingest tracking.
+*   **Volatility (v2.6):** Volatile memory analysis and kernel block identification.
 *   **Bulk Extractor:** Cryptographic key carving from corrupted RAM.
 *   **FTK Imager:** Creation of forensically sound bit-stream images and hash validation.
 
@@ -19,4 +19,4 @@ This repository contains the redacted forensic documentation and analysis report
 *   **Timeline Reconstruction:** Utilized Windows Prefetch, LNK files, and Registry Hives (`MountedDevices`) to prove the suspect actively mounted encrypted volumes (Drives K: and L:) outside of standard operating hours.
 *   **Cryptographic Identification:** Identified high-entropy 10MB containers disguised as `.txt` files, correlating with active `VeraCrypt.exe` execution in RAM.
 
-*Note: All data provided in this repository has been anonymized for academic/portfolio purposes.*
+*Note: All data provided in this repository has been anonymized for portfolio purposes.*
