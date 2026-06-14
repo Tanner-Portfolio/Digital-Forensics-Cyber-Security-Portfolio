@@ -1,7 +1,7 @@
 # Enterprise Insider Threat Investigation
 
 ## Overview
-This repository contains the forensic documentation and analysis reports from a digital forensics investigation into an insider threat and data exfiltration incident. 
+This repository contains the forensic documentation and analysis reports from a digital forensics investigation into an insider threat and data exfiltration incident scenario. 
 
 ## Tools
 *   **Autopsy (v4.21.0):** File system analysis, raw data carving, ingest tracking.
