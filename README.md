@@ -20,7 +20,7 @@ This repository serves as a centralized archive of my digital forensics, inciden
 *[**05: AI in Cybersecurity**](./05-AI-Cybersecurity-NIST/README.md) 
     * *Focus:* Strategic Implementation of AI in Cybersecurity mapped to the NIST AI RMF 1.0 framework.
 
-*[**06: Enterprise-Insider-Threat-Forensics**](./06-Enterprise-Insider-Threat-Forensics/README.md) 
+*[**06: Enterprise-Insider-Threat-Forensics**](./06: Enterprise-Insider-Threat-Forensics/README.md) 
     * *Focus:* Digital Forensic Investigation of Insider Threat.
 
 ---
