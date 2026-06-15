@@ -17,7 +17,7 @@ This module demonstrates advanced endpoint forensic techniques on Windows and Li
 *   **Anti-Forensics & Encryption:** Found evidence of `bdeunlock.exe` execution, indicating the threat actor manipulated BitLocker to encrypt/lock data. Extracted the BitLocker Recovery Key from `4E3D7844-CC56-427E-89A1-DCF265F60C16.TXT`.
 
 *Insert Volatility `windows.info`/Ncat PID screenshot here*
-`![Reverse Shell Execution](./images/ncat-execution.png)`
+![Ncat PID](01-Endpoint-Forensics/Images/Ncat-PID-6888.png.png)
 
 ## Investigation 2: Forensic Data Recovery & Camouflage Detection
 **Scenario:** A suspect attempted to hide and delete illicit image files. Conducted deep-level file system analysis to unearth the data.
