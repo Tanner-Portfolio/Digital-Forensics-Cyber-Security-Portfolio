@@ -14,7 +14,7 @@ To verify the vulnerability, a localized Vulhub container was spun up. The vulne
 2.  Redirected the log output to write a malicious JSP webshell (`tomcatwar.jsp`) directly into the public web directory.
 3.  Achieved root-level Remote Code Execution (RCE).
 
-![RCE Root Access Verification](./images/Spring4ShellSuccess.png)
+![RCE Root Access Verification](./Images/Spring4ShellSuccess.png)
 
 ## Remediation
 Remediation was mapped conceptually due to the image-based nature of the container:
