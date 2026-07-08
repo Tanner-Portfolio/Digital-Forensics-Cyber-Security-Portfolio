@@ -24,4 +24,4 @@ This directory contains investigations focused on network traffic analysis, vuln
 *   **Network Discovery:** Conducted stealth SYN scans (`-sS`) and aggressive OS fingerprinting (`-O -vv`) to map the target environment.
 *   **Automated Vulnerability Assessment:** Integrated the `nmap-vulners` NSE script to automatically cross-reference discovered services with known CVE databases, immediately highlighting unpatched software for the incident response team.
 
-![Nmap NSE Vulners Output](./Images/nmap-nse.png)
+![Nmap NSE Vulners Output](./Images/vulners_terminal_output.png)
