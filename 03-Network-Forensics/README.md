@@ -15,8 +15,7 @@ This directory contains investigations focused on network traffic analysis, vuln
 *   **Privilege Escalation Attempts:** Identified unauthorized users attempting to execute the `chroot` command to escape containerized environments.
 *   **Key Theft:** Correlated logs showing denied attempts to read highly sensitive private key files (`.pem`).
 
-*(Insert Splunk Dashboard screenshot for the "chroot" or "failed logins" query)*
-`![Splunk Query Results](./images/splunk-dashboard.png)`
+![Splunk Query Results](./Images/splunk-dashboard.png)
 
 ## Investigation 2: Active Reconnaissance & Vulnerability Mapping
 **Scenario:** Simulated an Incident Response triage process by actively scanning a suspected compromised asset to identify open attack vectors.
@@ -25,5 +24,4 @@ This directory contains investigations focused on network traffic analysis, vuln
 *   **Network Discovery:** Conducted stealth SYN scans (`-sS`) and aggressive OS fingerprinting (`-O -vv`) to map the target environment.
 *   **Automated Vulnerability Assessment:** Integrated the `nmap-vulners` NSE script to automatically cross-reference discovered services with known CVE databases, immediately highlighting unpatched software for the incident response team.
 
-*(Insert NSE `nmap-vulners` output screenshot here)*
-`![Nmap NSE Vulners Output](./images/nmap-nse.png)`
+![Nmap NSE Vulners Output](./Images/nmap-nse.png)
