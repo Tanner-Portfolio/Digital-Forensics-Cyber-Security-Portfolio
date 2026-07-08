@@ -15,7 +15,7 @@ This directory contains investigations focused on network traffic analysis, vuln
 *   **Privilege Escalation Attempts:** Identified unauthorized users attempting to execute the `chroot` command to escape containerized environments.
 *   **Key Theft:** Correlated logs showing denied attempts to read highly sensitive private key files (`.pem`).
 
-![Splunk Query Results](./Images/splunk-dashboard.png)
+![Splunk Query Results](./Images/failed_login_query_results.png)
 
 ## Investigation 2: Active Reconnaissance & Vulnerability Mapping
 **Scenario:** Simulated an Incident Response triage process by actively scanning a suspected compromised asset to identify open attack vectors.
