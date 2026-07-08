@@ -14,5 +14,4 @@ This project demonstrates the ability to architect and provision secure, scalabl
 *   **Infrastructure as Code (IaC):** Utilized JSON within AWS Infrastructure Composer to dynamically generate the routing structures and resource tags.
 *   **Stack Deployment:** Deployed and validated the entire architecture via an automated AWS CloudFormation Stack, ensuring repeatable and error-free infrastructure generation.
 
-*(Insert AWS Infrastructure Composer Visual Map screenshot here)*
-`![AWS Infrastructure Composer Map](./images/aws-composer.png)`
+![AWS Infrastructure Composer Map](./Images/public_private_subnet_to_VPC.png)
