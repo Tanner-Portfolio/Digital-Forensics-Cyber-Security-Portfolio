@@ -1,0 +1,19 @@
+* Detection: Successful authentication outside business hours
+*
+* Hypothesis:
+*   Legitimate user activity clusters inside working hours. A successful
+*   authentication outside that window may indicate credential compromise,
+*   an attacker operating from another timezone, or insider activity.
+*
+* Business hours defined as 09:00-18:00 local.
+*
+* Tuning notes:
+*   - Adjust the hour boundaries to match the organisation's actual schedule.
+*   - Expect false positives from on-call staff, scheduled jobs, and
+*     service accounts. Baseline those before alerting on this.
+*   - Consider joining against a known-service-account list to suppress noise.
+
+index="splunk_data" "login successful"
+| eval hour=strftime(_time, "%H")
+| where hour<9 OR hour>=18
+| table _time, host, user

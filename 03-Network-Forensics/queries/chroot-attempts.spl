@@ -1,0 +1,17 @@
+* Detection: chroot execution attempts
+*
+* Hypothesis:
+*   In a containerised environment, chroot execution may indicate an attempt
+*   to break out of filesystem isolation. Combined with elevated privileges
+*   or CAP_SYS_CHROOT, it is a container escape primitive.
+*
+* Tuning notes:
+*   - The system invokes chroot in normal background operation, so raw volume
+*     here is not meaningful on its own. Baseline first.
+*   - The interesting cases are chroot invoked by an unexpected user, from an
+*     interactive shell, or inside a container that should not have the
+*     capability at all.
+*   - Correlate with container runtime logs to establish whether the calling
+*     process was inside a container boundary.
+
+index="splunk_data" "chroot"

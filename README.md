@@ -5,23 +5,23 @@ This repository serves as a centralized archive of my digital forensics, inciden
 
 ## Project Archive
 
-*[**01: Endpoint Forensics**](./01-Endpoint-Forensics/README.md) 
-    * *Focus:* Persistence mechanisms and Windows Registry Analysis.
+* [**01: Endpoint Forensics**](./01-Endpoint-Forensics/README.md)
+    * *Focus:* Windows RAM and registry post-mortem of a reverse-shell intrusion (persistence, anti-forensic timestamp tampering, BitLocker), plus Linux file camouflage detection and carving.
 
-*[**02: Container Security**](./02-Container-Security/README.md) 
-    * *Focus:* Supply Chain Vulnerability Analysis (e.g., Spring4Shell) and secure container configurations.
+* [**02: Container Security**](./02-Container-Security/README.md)
+    * *Focus:* Verification and exploitation of a known critical CVE (Spring4Shell) in a containerized Spring/Tomcat app, with conceptual (untested) remediation.
 
-*[**03: Network Forensics**](./03-Network-Forensics/README.md) 
-    * *Focus:* PCAP Traffic Analysis and custom IDS (Intrusion Detection System) Rule Development.
+* [**03: Network Forensics**](./03-Network-Forensics/README.md)
+    * *Focus:* SIEM log correlation (Splunk) and network reconnaissance tooling (Nmap/NSE) for IR triage. Does not include packet-level (PCAP) analysis or custom IDS rule development.
 
-*[**04: Cloud Infrastructure**](./04-Cloud-Infrastructure/README.md) 
-    * *Focus:* Secure AWS Provisioning via Infrastructure as Code (IaC).
+* [**04: Cloud Infrastructure**](./04-Cloud-Infrastructure/README.md)
+    * *Focus:* VPC and subnet provisioning in AWS via CloudFormation/Infrastructure Composer. Network-layer only — no routing, security groups, or compute were provisioned.
 
-*[**05: AI in Cybersecurity**](./05-AI-Cybersecurity-NIST/README.md) 
+* [**05: AI in Cybersecurity**](./05-AI-Cybersecurity-NIST/README.md)
     * *Focus:* Strategic Implementation of AI in Cybersecurity mapped to the NIST AI RMF 1.0 framework.
 
-*[**06: Enterprise-Insider-Threat-Forensics**](./06-Enterprise-Insider-Threat-Forensics/README.md) 
-    * *Focus:* Digital Forensic Investigation of Insider Threat.
+* [**06: Enterprise-Insider-Threat-Forensics**](./06-Enterprise-Insider-Threat-Forensics/README.md)
+    * *Focus:* Digital Forensic Investigation of Insider Threat, including chain-of-custody documentation and an evidence control log.
 
 ---
-*Note: Each directory contains its own respective report, anonymized for privacy.*
+*Note: All six projects originate from graduate DFIR coursework labs against instructor-provided or fictional scenarios, not real incidents. Some screenshots retain real lab-environment details (e.g., student account identifiers) from the source materials rather than being redacted.*

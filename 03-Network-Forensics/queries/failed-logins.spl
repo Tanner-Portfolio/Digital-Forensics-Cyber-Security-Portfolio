@@ -1,0 +1,17 @@
+* Detection: Failed authentication attempts
+*
+* Hypothesis:
+*   Clusters of failed authentications indicate brute-force, password
+*   spraying, or credential-stuffing activity. Isolated failures are
+*   normal user error; volume and pattern are what matter.
+*
+* Multiple string variants are matched because authentication failure
+* is logged differently across sources (sshd, PAM, application logs).
+*
+* Tuning notes:
+*   - Follow up by grouping on source host and user to find concentration:
+*       | stats count by host, user | where count > 10
+*   - Correlate against after-hours-logins.spl: a failure cluster followed
+*     by a success is a stronger signal than either alone.
+
+index="splunk_data" "login failed" OR "failed login" OR "authentication failed"

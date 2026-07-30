@@ -1,0 +1,19 @@
+* Detection: Package installation activity
+*
+* Hypothesis:
+*   Installing tooling is a common post-exploitation step. An attacker with
+*   shell access frequently pulls down utilities they need — netcat, scanners,
+*   tunnelling tools, cryptominers.
+*
+* This query is a baselining query rather than an alerting one. The value is
+* in establishing what legitimate installation activity looks like on a host
+* so that anomalies become visible.
+*
+* Tuning notes:
+*   - Pair with a maintenance window. Installs outside a change window are
+*     more interesting than installs inside one.
+*   - Watch specifically for known dual-use tooling in the package name.
+*   - On a hardened host, any interactive apt activity should be rare enough
+*     to review individually.
+
+index="splunk_data" "apt" AND "install"

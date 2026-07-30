@@ -1,0 +1,21 @@
+* Detection: Denied access attempts against private key material
+*
+* Hypothesis:
+*   Denied reads against private keys are a direct indicator of credential
+*   theft attempts. Unlike most signals, this one has very little benign
+*   explanation — a process that should read a key normally has permission
+*   to do so.
+*
+* Matches on denial plus key-related terms rather than a fixed path, since
+* key material is not always stored where policy says it should be.
+*
+* Tuning notes:
+*   - The system generates some of these in normal background operation.
+*     Baseline those before alerting.
+*   - A denial from an unexpected user or process context is the high-value
+*     case. Denials from known service accounts are usually noise.
+*   - Successful reads by unexpected principals are worse than denials and
+*     will not appear in this query. A companion query should cover those.
+
+index="splunk_data" "denied" AND ("key" OR "private" OR ".pem")
+| table _time, host, _raw
